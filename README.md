@@ -9,5 +9,4 @@
 - Jason Doze
 - Jessy Martinez
 - La'Tonia Mertica
-- Tabitha Buck
 
