@@ -97,16 +97,16 @@ print("Challenge 3.2.3: Output for the user the result")
 if stock=="amzn":
     if number_of_stocks>1:
         print(f"{name} has ${savings} and they can buy {int(number_of_stocks)} of Amazon at the current price of $3000")
-if stock=="aapl":
+elif stock=="aapl":
     if number_of_stocks>1:
         print(f"{name} has ${savings} and they can buy {int(number_of_stocks)} of Apple at the current price of $100")
-if stock=="fb":
+elif stock=="fb":
     if number_of_stocks>1:
         print(f"{name} has ${savings} and they can buy {int(number_of_stocks)} of FaceBook at the current price of $250")
-if stock=="goog":
+elif stock=="goog":
     if number_of_stocks>1:
         print(f"{name} has ${savings} and they can buy {int(number_of_stocks)} of Google at the current price of $1400")
-if stock=="msft":
+elif stock=="msft":
     if number_of_stocks>1:
         print(f"{name} has ${savings} and they can buy {int(number_of_stocks)} of Microsoft at the current price of $200")
 print()
