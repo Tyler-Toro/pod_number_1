@@ -3,7 +3,7 @@ print("Challenge 3.1: Debug code snippets")
 
 print()
 
-print("Code Snippet 1:")
+print("Code Snippet 1:") 
 
 u = 5
 v = 2
