@@ -71,10 +71,13 @@ print("Code Snippet 5:")
 m = "GOAT"
 n = "goat"
 
-o = (m != n)
+o = (m != n) #changed the Boolean from equals to does NOT equal
 
 print (f"The value of o ({o}) is True since Python is case-sensitive.")
 assert(o == True) #Do not change this line
 
 print(o)
 print("CHALLENGE COMPLETE!")
+
+
+# I first ran the code. I then began debugging, which included adding a colon or changing a Boolean. I kept re running the code to check any errors and debugging.

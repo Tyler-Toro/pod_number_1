@@ -33,8 +33,9 @@ restaurant = {
 # print(restaurant)
 
 # TODO: Write code to print the latitude and longitude of Four Barrel Coffee.
-print(restaurant["latitude"])
-print(restaurant["longitude"])
+print(f'The latitude is {restaurant["latitude"]}')
+print(f'The longitude is {restaurant["longitude"]}')
+
 
 # TODO: Write code to print the complete address of the Four Barrel Coffee, formatted as a string - it should include the address, city, state and the zip code.
 print(f'The complete address of the Four Barrel Coffee is {restaurant["address1"]}, {restaurant["city"]}, {restaurant["state"]}, {restaurant["zip_code"]}')
@@ -52,41 +53,44 @@ print("Question 2")
 #         1. name : name of the resturant (string)
 #         2. address: address of the restaurant (string)
 #         3. favourite_dish: your favourite thing to order at the restaurant (string)
-print()
+
 restaurant_1  = {
     "name": "Taco Bell",
     "address" : "500 Times Square, NY 10016",
-    "favourite_dish" : "Chicken BLT Sandwich" 
+    "favourite_dish" : "Pasta Primavera" 
 } 
-print("\n")
+print()
+
 restaurant_2  = {
     "name": "McDonalds",
-    "address" : "110th & Broadway, NY 10016",
-    "favourite_dish" : "Chicken BLT Sandwich" 
+    "address" : "110th & Broadway, NY 10017",
+    "favourite_dish" : "Pernil" 
 }
-print("\n")
+
+
 restaurant_3  = {
     "name": "Burger King",
-    "address" : "110th & Broadway, NY 10016",
-    "favourite_dish" : "Chicken BLT Sandwich" 
+    "address" : "500 Grand Central, NY 10070",
+    "favourite_dish" : "Salmon" 
 }
-print("\n")
-
+print()
 
 
 # TODO: Print each dictionary
 
-print(restaurant_1, restaurant_2, restaurant_3)
+print(restaurant_1)
+print(restaurant_2)
+print(restaurant_3)
 
 # The dictionary for each restaurant should look something like this
 
-
+'''
 restaurant_1  = {
     "name": "Subway",
     "address" : "116th & Broadway, NY 10016",
     "favourite_dish" : "Chicken BLT Sandwich" 
 }
-
+'''
 
 print()
 
@@ -101,7 +105,7 @@ restaurant_1.pop("favourite_dish")
 
 
 # TODO: Print the new dictionary. The new dictionary should only contain 'name' and 'address' for that restaurant
-print(restaurant_1)#use parenthesis because calling a function. Pop is function of dictionary, remove is for lists
+print(restaurant_1)  #use parenthesis because calling a function. Pop is function of dictionary, remove is for lists
 
 print()
 
