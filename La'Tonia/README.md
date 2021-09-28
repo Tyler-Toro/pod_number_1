@@ -7,7 +7,10 @@
 FIRST NAME: La'Tonia Mertica *pronounced luh tone yuh merr treece*
 <br />
 <br />
-Code/Web Dev hasn't come easy to me. It's been more sheer determination than talent. More balance between 'I can' and 'I will' - with 'I am.' 
+Code/Web Dev hasn't come easy to me. I began this code/web dev journey just inside 2021. In a structured, formalized, and supportive environment. Externally presented, that is. The difference matters. Before that, I tried reading and watching and listening. What the experience taught me is I thrive better with an externally structured, formalized, and supportive environment. And to keep reading and watching and listening. Such conditions - my internal in conspiracy with external - invoke accountability, heightened curiosity, and more optimum elements for holistic growth.
+<br />
+<br />
+Still, it has been more sheer determination than talent. More balance between 'I can' and 'I will' - with 'I am.' Regardless, it settles with me. To do. Or not to do.
 <br />
 <br />
 *Stated Plain:*
