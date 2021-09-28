@@ -9,7 +9,7 @@ print()
 
 # TODO: Write code to print all laptop names
 print(all_laptops [0])
-print(all_laptops [1])
+print(all_laptops [1])   
 print(all_laptops [2])
 print(all_laptops [3])
 print(all_laptops [4])
