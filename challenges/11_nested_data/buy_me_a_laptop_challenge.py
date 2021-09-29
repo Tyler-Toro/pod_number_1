@@ -2,13 +2,13 @@
 print("Challenge 1: All possible laptops\n")
 print("Question 1: You are given a list containing the laptop names. Print the names of each the laptops separately.")
 all_laptops = ["Apple MacBook Pro", "Asus Zenbook", "Dell XPS", "Lenovo IdeaPad", "Apple MacBook Air", "Sony Viao"]
-
+print()
 # TODO: Write code to print all laptop names
 print("All laptops names:")
 
 
 # Challenge 2
-
+print()
 print("Challenge 2: Buy a laptop")
 print("Below is a dictionary of the top 2 laptops of 2020 as reviewed by Tech Crunch. \
     Go through the dictionary and print out the following 3 pieces of information about the laptops: \
