@@ -1,6 +1,7 @@
 # Pod Leader 6 Brandon kindly introduced us to pretty print - simple and easy ... loOove it!
 from pprint import pprint
 
+
 # Challenge 1
 print("Challenge 1: All possible laptops\n")
 print("Question 1: You are given a list containing the laptop names. Print the names of each the laptops separately.")
@@ -13,6 +14,7 @@ print("All laptop names:")
 print('\n'.join(all_laptops))
 print(f'''Names of All the Laptops: {' '.join(all_laptops)}''')
 print()
+
 
 # Challenge 2
 print("Challenge 2: Buy a laptop")
@@ -108,6 +110,7 @@ print(laptops[1]["description"])
 print(f'Description for Dell XPS: {laptops[1]["description"]}')
 print()
 
+
 print("Question 2: Out of Stock laptops")
 print("Suppose that the 13-inch MacBook Pro in space gray color is sold out. Also, the same laptop with 1 TB storage is out of stock as well. Update the list of dictionaries such that these options are removed. Print the updated dictionary.")
 print()
@@ -147,6 +150,59 @@ print()
 # First two print statements below (commented out) still no-go ... any insight appreciated
 # print(laptops[0]["types"][0]["colors"].pop([0]))
 # print(laptops[0]["types"][1]["storage"].pop([1]))
+
+# Below code per re-try with code example provided by Tyler
+apple_macbook_pro = [
+        {
+            "productName": "Apple Macbook Pro",
+            "url": "https://www.apple.com/macbook-pro-13/",
+            "types": [
+                {
+                    "id": "1",
+                    "screen_size": "13-inch",
+                    "cpu": ["1.4GHz quad-core 8th-generation Intel Core i5 processor", "2.0GHz quad-core 10th-generation Intel Core i5 processor"],
+                    "ram": ["8GB","16GB"],
+                    "storage": ["256GB SSD","512 GB SSD"],
+                    "colors": ["space gray", "silver"],
+                    "price": [1299, 1499, 1799]
+                },
+                {
+                    "id": "2",
+                    "screen_size": "16-inch",
+                    "cpu": ["2.6GHz 6-core 9th-generation Intel Core i7 processor", "2.3GHz 8-core 9th-generation Intel Core i9 processor"],
+                    "ram": ["16GB"],
+                    "storage": ["512 GB SSD", "1 TB SSD"],
+                    "colors": ["space gray", "silver"],
+                    "price": [2399, 2799]
+                }
+            ]
+        }
+]
+
+print(f'APPLE MACBOOK PRO COLORS: {apple_macbook_pro[0]["types"][0]["colors"]}')
+print(f'APPLE MACBOOK PRO STORAGE: {apple_macbook_pro[0]["types"][1]["storage"]}')
+print()
+
+# Below code per re-try and is no-go ... I need help understanding
+# apple_macbook_pro["colors"] = apple_macbook_pro.get('colors')
+# print(apple_macbook_pro['colors'])
+# apple_macbook_pro["storage"] = apple_macbook_pro.get('storage')
+# print(apple_macbook_pro['storage'])
+
+# Another re-try ... WORKS!!!
+print(apple_macbook_pro[0]["types"][0]["colors"])
+apple_macbook_pro[0]["types"][0]["colors"].remove("space gray")
+print(f'If the above remove method works then this line will return no space gray in the colors. This line returns: {apple_macbook_pro[0]["types"][0]["colors"]}')
+print(f'This is the dictionary: Type {type(apple_macbook_pro[0]["types"][0])}')
+print(f'This is the list nested in the dictionary: Type {type(apple_macbook_pro[0]["types"][0]["colors"])}')
+print()
+
+print(apple_macbook_pro[0]["types"][1]["storage"])
+apple_macbook_pro[0]["types"][1]["storage"].remove("1 TB SSD")
+print(f'If the above remove method works then this line will return no 1 TB SSD in the storage options. This line returns: {apple_macbook_pro[0]["types"][1]["storage"]}')
+print(f'This is the dictionary: Type {type(apple_macbook_pro[0]["types"][1])}')
+print(f'This is the list nested in the dictionary: {type(apple_macbook_pro[0]["types"][1]["storage"])}')
+print()
 
 # These two prints statements work, but I feel like this is a hacky workaround
 laptops[0]["types"][0]["colors"] = "silver"
