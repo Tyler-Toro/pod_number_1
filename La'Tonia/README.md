@@ -25,6 +25,7 @@ It's Said. Outloud, enough. Finally.
 <br />
 
 [//]: # (GIF CODE FOR MARKDOWN)
-![Planned Risk Taking](https://media.giphy.com/media/dZ43ndzZwamqV3uI9e/giphy.gif)
+<!-- ![Planned Risk Taking](https://media.giphy.com/media/dZ43ndzZwamqV3uI9e/giphy.gif) -->
+<p align="center"><img src="https://media.giphy.com/media/dZ43ndzZwamqV3uI9e/giphy.gif" width="100%" /></p>
 ###### **video captured by La'Tonia Mertica**
 ###### **gif created with the video at <a href="https://giphy.com/" target="_blank">Giphy</a>**
