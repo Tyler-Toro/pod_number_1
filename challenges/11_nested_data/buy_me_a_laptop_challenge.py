@@ -5,7 +5,7 @@ all_laptops = ["Apple MacBook Pro", "Asus Zenbook", "Dell XPS", "Lenovo IdeaPad"
 print()
 # TODO: Write code to print all laptop names
 print("All laptops names:")
-
+print()
 
 # Challenge 2
 print()
