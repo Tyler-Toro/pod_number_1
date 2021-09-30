@@ -1,5 +1,5 @@
-# <div style="text-align: center">**JUSTICE THROUGH CODE**</div>
-### *confession by a code master hopeful*
+# <div align="center">**JUSTICE THROUGH CODE**</div>
+### *confession by code master hopeful*
 
 ###### **PYTHON BOOTCAMP FALL 2021 COHORT**
 ###### <a href="https://drive.google.com/file/d/1NJNd3XmIWNVadYwVB_OCQQDDXzNVvn1X/view?usp=sharing" target="_blank"> visit pdf technical question guide by La'Tonia Mertica</a>
