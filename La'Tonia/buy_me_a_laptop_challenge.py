@@ -151,7 +151,7 @@ print()
 # print(laptops[0]["types"][0]["colors"].pop([0]))
 # print(laptops[0]["types"][1]["storage"].pop([1]))
 
-# Below code per re-try with code example provided by Tyler
+# Below code per re-try with code example provided by Tyler ... which I think answers my 'what am I missing' and 'any insight appreciated' comments above
 apple_macbook_pro = [
         {
             "productName": "Apple Macbook Pro",
@@ -183,7 +183,7 @@ print(f'APPLE MACBOOK PRO COLORS: {apple_macbook_pro[0]["types"][0]["colors"]}')
 print(f'APPLE MACBOOK PRO STORAGE: {apple_macbook_pro[0]["types"][1]["storage"]}')
 print()
 
-# Below code per re-try and is no-go ... I need help understanding
+# Below code per re-try and is no-go ... I need help understanding ... following uncommented code block works but I may still benefit from walk through of Tyler's example for better understanding
 # apple_macbook_pro["colors"] = apple_macbook_pro.get('colors')
 # print(apple_macbook_pro['colors'])
 # apple_macbook_pro["storage"] = apple_macbook_pro.get('storage')
@@ -204,7 +204,7 @@ print(f'This is the dictionary: Type {type(apple_macbook_pro[0]["types"][1])}')
 print(f'This is the list nested in the dictionary: {type(apple_macbook_pro[0]["types"][1]["storage"])}')
 print()
 
-# These two prints statements work, but I feel like this is a hacky workaround
+# These two prints statements work, but I feel like this is a hacky workaround (I did before trying to follow Tyler's example)
 laptops[0]["types"][0]["colors"] = "silver"
 print(f'Given there are multiple means to answer any given code question, I hope it suffices that I arrived at the answer for this exercise - meaning the print statement only reflects "{laptops[0]["types"][0]["colors"]}" - using this code way.')
 print()
