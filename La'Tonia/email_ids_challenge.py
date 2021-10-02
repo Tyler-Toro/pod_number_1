@@ -51,19 +51,22 @@ emails = []
 # 2.1 TODO: Use a "for" loop to go over each name in the names list
 # 2.2 TODO: Inside the "for" loop, create the email id by re-using the logic from Question 1 and...
 # 2.3 TODO: ..add the email to the emails list
-
+# Iterative print issue fixed at office hours w/Gaurav ... issue was comments and pprint() both inside of the for loop ... need to be outside/left aligned with 'for'
+ 
 for name in names:
     lower_name = name.lower()
     names_list = lower_name.split(' ')
     joined_names = '.'.join(names_list)
     email = joined_names + '@ripplemedia.com'
     emails.append(email)
-    print()     
 
-    # print(lower_name) ... to check what code is doing at this stage
-    # print(names_list) ... to check what code is doing at this stage
-    # print(joined_names) ... to check what code is doing at this stage
+pprint(emails)
+print()     
 
-    # used pretty print for print statement below because returned result is a big block of text/characters
-    # realize now that for each loop the returned results adds a name to the content ... lol
-    pprint(emails) 
+# print(lower_name) ... to check what code is doing at this stage
+# print(names_list) ... to check what code is doing at this stage
+# print(joined_names) ... to check what code is doing at this stage
+
+# used pretty print for print statement below because returned result is a big block of text/characters
+# realize now that for each loop the returned results adds a name to the content ... lol
+
