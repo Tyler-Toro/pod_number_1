@@ -1,23 +1,35 @@
 # <div align="center">**JUSTICE THROUGH CODE**</div>
-### *confession by code master hopeful*
 
 ###### **PYTHON BOOTCAMP FALL 2021 COHORT**
-###### <a href="https://drive.google.com/file/d/1NJNd3XmIWNVadYwVB_OCQQDDXzNVvn1X/view?usp=sharing" target="_blank"> visit pdf technical question guide by La'Tonia Mertica</a>
----
-FIRST NAME: La'Tonia Mertica *pronounced luh tone yuh merr treece*
 <br />
+
+###### **note_1: scripts labeled *challenge* are assignments**
+###### **note_2: remaining scripts result from my self study**
+---
+###### <a href="https://drive.google.com/file/d/1NJNd3XmIWNVadYwVB_OCQQDDXzNVvn1X/view?usp=sharing" target="_blank"> visit pdf technical question guide by La'Tonia Mertica</a>
+###### <a href="https://www.latoniamertica.dev/creas-crave-capstone/" target="_blank">visit full stack javascript capstone by La'Tonia Mertica</a>
+<br />
+
+## <div align="center">***confession by code master hopeful***</div>
+<br />
+FIRST NAME: La'Tonia Mertica
+
+###### note_3: pronounced *luh tone yuh merr treece*
 <br />
 Code/Web Dev hasn't come easy to me. I began this code/web dev journey just inside 2021. In a structured, formalized, and supportive environment. Externally presented, that is. The difference matters. Before that, I tried reading and watching and listening. What the experience taught me is I thrive better with an externally structured, formalized, and supportive environment. And to keep reading and watching and listening. Such conditions - my internal in conspiracy with external - invoke accountability, heightened curiosity, and more optimum elements for holistic growth.
 <br />
 <br />
-Still, it has been more sheer determination than talent. More balance between 'I can' and 'I will' - with 'I am.' Regardless, it settles with me. To do. Or not to do. The risk I took - to join the code/tech eco system - was calculated. It is risk that perpetuates day to day. Moment to moment. Choice by choice. Until I come through (whole). Or, lose my way in the middling. There's no going back. Left are two options - one solid. Succeed. Finish. Actualize my code self. That's one. Versus not. The choice is made. When imposter syndrome or base doubt creep, I go to tangible examples of my cap*ability*: 
+Still, it has been more sheer determination than talent. More balance between 'I can' and 'I will' - with 'I am.' Regardless, it settles with me. To do. Or not to do. The risk I took - to join the code/tech eco system - was calculated. It is risk that perpetuates day to day. Moment to moment. Choice by choice. Until I come through (whole). Or, lose my way in the middling. There's no going back. Left are two options - one solid. Succeed. Finish. Actualize my code self. That's one. Versus not. The choice is made. When imposter syndrome or base doubt creep, I go to tangible examples of my capability: 
 <br />
 <br />
-https://www.latoniamertica.dev/nyt-selected-best-sellers-list/ ... *coded key by key from a frumpy-feeling class assignment into a deployed webpage I am proud of. Perfect, nopes. Damn well done, though. Did it require help from a mentor, absolutely. And still, it is no less a reflection of my potential - ability. Bonus Question: Does it make me want to keep going. Yups. I am.*   
+<a href="https://www.latoniamertica.dev/nyt-selected-best-sellers-list/" target="_blank">such as my new york times selected best sellers list</a> coded key by key from a frumpy-feeling class assignment into a deployed webpage. It inspires, energizes me. Perfect, nopes. Damn well done, though. Did it require help from a mentor, absolutely. And still, it is no less a reflection of my potential - ability. Bonus Question: Does it make me want to keep going. Yups. I am.  
+<br />
 <br />
 I can do it, this. Be a worthy member of the code/tech eco system. I know. Because I already have done it. I already am part of the eco system. Keeping pace with modules, classwork, independent self study. And my internal mental mantra that there's no denying I love loOoove this sh*t. I'm here. Where I'm supposed to be. On time. In tune. Challenged - but better for it.  
 <br />
-*Stated Plain:*
+<br />
+
+***Stated Plain:***
 I am here by the grace of God. Granting me humility, persistence, faith for what comes next. As such I give everything I do my all. I will achieve a place in this world where I am not hungry. Am not cold. Am not unsure. Clarity will line my path and align my values with what the world - not only offers, but - delivers to me.
 <br />
 <br />
