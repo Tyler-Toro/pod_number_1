@@ -21,7 +21,7 @@ print(display_playlist(my_playlist))
 print()
 
 # 3 Add a song to my_playlist using the add_song() function
-add_song(my_playlist, {"artist" : "", "title" : ""})
+add_song(my_playlist, {"artist" : "Alice in Chains", "title" : "Junkhead"})
 print(my_playlist)
 print()
                                                                 
@@ -79,8 +79,10 @@ print()
 
 print('BONUS')
 print()
-play_track(my_playlist)
-play_track(my_playlist)
+play_track(my_playlist,1)
+play_track(my_playlist,2)
+play_track(my_playlist,3)
+play_track(my_playlist,4)
 print()
 
 
