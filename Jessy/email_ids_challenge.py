@@ -32,47 +32,23 @@ print('Question 2')
 names = ['Max Bartlett', 'Angelita Norris', 'Stewart Mueller', 'Dominique Henry', 'Carmela Gross', 'Bettie Mcmillan', 'Sara Ellison', 'Ira Anthony', 'Pauline Riley', 'Ben Weber',
          'Joanne Mcknight', 'Loren Gould', 'Jamar Singh', 'Amanda Vance', 'Tyrell Andrade', 'Jana Clements', 'Eddy Mcbride', 'Marsha Meyer', 'Elbert Shannon', 'Alyce Hull']
 
-# lower_names=names.lower()
-# print(lower_names)
-# lower_names= names.lower()
+
 lower_names=[]
 for i in names:
+    
+    joined_names=''.join(names)
     # print(i)
     i.lower()
     lower_names.append(i.lower())
-# names_list= names.split('')
-# lower_names=names_list
-# print(lower_names)
-# names_list= lower_names.split('')
-# joined_names='.'.join(names_list)
 
-print(lower_names) 
 
-names_list=[]
-for ii in lower_names:
-    # print(type(ii))
-    stringii=ii+'@ripplemedia.com'
-    names_list.append(stringii)
-print(names_list)
-print(type(names_list))
-string_name=str(names_list)
-print(string_name)
-print(type(string_name))
-split_names=string_name.split('')
-print(split_names)
-# # lower_names=[]
-# # emails = []
-# # for i in lower_names:
-# #     emails.append(i+"@ripplemedia.com")
+print(joined_names) 
 
+#
 # # print(emails)
 # # We want to convert all their names into the same format from Question 1
 # # 2.1 TODO: Use a "for" loop to go over each name in the names list
-# for expansion in lower_names:
-#     expansion= lower_names.split('')
-# print(expansion)
-#     # print(expansion)
-# # print()
+# 
 # # 2.2 TODO: Inside the "for" loop, create the email id by re-using the logic from Question 1 and...
 # for iii in names_list:
 
