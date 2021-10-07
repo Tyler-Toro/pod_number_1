@@ -103,3 +103,4 @@ print("Question 3: listing all the prices")
 print("Time to look at the range of prices. Print out all possible computer prices")
 
 # TODO: print out all possible prices for the laptops
+print(laptops[price])
