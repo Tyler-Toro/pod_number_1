@@ -95,4 +95,11 @@ def play_track(playlist,num=0):
 # 		for i in range(len(playlist)):
 # 			print(f'Track {i+1}: {playlist[i]["plays"]} plays \
 # 				  \n\t-{playlist[i]["title"]} by {playlist[i]["artist"]}')
-			
+
+# final round ... re-try per Paul graciously showing us in class
+# copy/pasted from what i typed into Slack to share with other student to see if get tab error ... received syntax error and tab error/inconsistent use of spaces and tab error ... so it worked
+
+def play_track(playlist, track=1):
+	track -= 1
+	print(f"Playing: track {track}, by {playlist[track]['title']}, {playlist[track]['artist']}")
+	# playlist[track]['plays']+=1

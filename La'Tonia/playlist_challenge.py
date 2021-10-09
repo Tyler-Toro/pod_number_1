@@ -110,11 +110,14 @@ print()
 print('BONUS')
 print(' "creating new fn play_track() from previous code in fns file" ')
 print(' "to play a few tracks and ensuring code works" ')
-play_track(my_playlist, 0)
-print()
+# play_track(my_playlist)
+# print()
+
+# play_track(my_playlist, 1)
+# print()
+
+# play_track(my_playlist, 2)
+# print()
 
 play_track(my_playlist, 1)
-print()
-
-play_track(my_playlist, 2)
-print()
+display_playlist(my_playlist)
