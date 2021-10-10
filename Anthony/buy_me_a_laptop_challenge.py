@@ -94,11 +94,13 @@ print("Question 2: Out of Stock laptops")
 print("Suppose that the 13-inch MacBook Pro in space gray color is sold out. Also, the same laptop with 1 TB storage is out of stock as well. Update the list of dictionaries such that these options are removed. Print the updated dictionary.")
 
 # TODO: Update the laptops dictionary.
-print()
+laptops
 
 # TODO: Print the new dictionary.
+print(laptops)
 
 print("Question 3: listing all the prices")
 print("Time to look at the range of prices. Print out all possible computer prices")
 
 # TODO: print out all possible prices for the laptops
+print(laptops[price])
