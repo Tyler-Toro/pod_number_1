@@ -16,7 +16,10 @@ def display_playlist(playlist):
 # takes two arguments: 'playlist' (a list), and 'song' (a dictionary)
 def add_song(playlist, song):
 	# automatically initialize play count of song to 0
-	song['plays'] = ''
+	# song['plays'] = ''
+	song['plays'] = 0
+# below code increases play by one but only one/once
+	# song['plays'] += 1
 	playlist.append(song)
 
 # # attempting more parameters
@@ -41,6 +44,7 @@ def get_playlist_length(playlist):
 TODO (BONUS): define a function called play_track()
 It should have two parameters
 -'playlist' (a list)
+# MAKING A PARAM OPTIONAL SIMPLY MEANS SETTING A VALUE TO IT IN THE FUNCTION()
 -'track' (an integer) - this should be optional, and by default play track 1
 
 This function should 'play' the song corresponding to the input track #
@@ -59,20 +63,21 @@ So, if 'Controversy' has 0 plays so far, it should now be increased to 1
 # track = int
 
 # code below primary attempt at bonus ... works while not fulfilling full bonus requirements ... worked on w/Brandon Grant
-songs = str('Number of Plays Goes Here: x ')
+# songs = str('Number of Plays Goes Here: x ')
 
-def play_track(playlist, num = 0):
-	if len(playlist) == 0:
-		print('Playlist is empty!')
-	else:
-		for i in playlist:
-			print(f'Now playing track {num+1}: {songs} plays \
-				  \n\t-{playlist[num]["title"]} by {playlist[num]["artist"]}')
-			return play_track
+# def play_track(playlist, num = 0):
+# 	if len(playlist) == 0:
+# 		print('Playlist is empty!')
+# 	else:
+# 		for i in playlist:
+# 			print(f'Now playing track {num+1}: {songs} plays \
+# 				  \n\t-{playlist[num]["title"]} by {playlist[num]["artist"]}')
+# 			return play_track
 
 
 # code below another primary attempt at bonus ... maybe works while not fulfilling full bonus requirements ...
 def play_track(playlist,num=0):
+	songs = str('Song Here')
 	if len(playlist) == 0:
 		print('Playlist is empty!')
 	else:
@@ -80,7 +85,7 @@ def play_track(playlist,num=0):
 			print(f'Now playing track {num+1}: {songs} plays \
 				  \n\t-{playlist[num]["title"]} by {playlist[num]["artist"]}')
 			for i in range(len(playlist)):
-				print(f'Track {i+1}: {playlist[i]["plays"]} plays \
+				print(f'Track {i++1}: {playlist[i+1]["plays"]} plays \
 					\n\t-{playlist[i]["title"]} by {playlist[i]["artist"]}')
 			return play_track
 
@@ -102,4 +107,4 @@ def play_track(playlist,num=0):
 def play_track(playlist, track=1):
 	track -= 1
 	print(f"Playing: track {track}, by {playlist[track]['title']}, {playlist[track]['artist']}")
-	# playlist[track]['plays']+=1
+	playlist[track]['plays']+=1 
