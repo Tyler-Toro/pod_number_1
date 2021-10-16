@@ -85,9 +85,11 @@ def play_track(playlist,num=0):
 			print(f'Now playing track {num+1}: {songs} plays \
 				  \n\t-{playlist[num]["title"]} by {playlist[num]["artist"]}')
 			for i in range(len(playlist)):
-				print(f'Track {i++1}: {playlist[i+1]["plays"]} plays \
+				print(f'Track {i+1}: {playlist[i+1]["plays"]} plays \
 					\n\t-{playlist[i]["title"]} by {playlist[i]["artist"]}')
 			return play_track
+
+# adding test comment
 
 # code below initial attempt at bonus ... breaks code
 # def play_track(playlist, track):
