@@ -1,0 +1,21 @@
+h1 {
+    color: aquamarine;
+    text-align: center;
+}
+.verdana{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cadetblue{
+    color: cadetblue;
+}
+#cornflowerblue{color: cornflowerblue;}
+#darkblue{color: darkblue;}
+#italic{font-style: italic;}
+#darkcyan{color: darkcyan;}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
