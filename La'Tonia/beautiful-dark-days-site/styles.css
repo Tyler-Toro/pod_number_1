@@ -1,0 +1,161 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+     margin: 0 0;
+    }
+
+/* #smokeCloudVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+
+        z-index: 7;
+    } */
+
+h1, h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    text-align: center;
+    letter-spacing: 1.3px;
+    }
+
+h1, h2 {
+    color: darkorchid;
+    text-shadow: 1px 1px black;
+    }
+
+h3 {
+    font-variant: small-caps;
+    }
+
+h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1.3px;
+    }
+
+h2, h3, p, div, form {
+    margin-left: 21px;
+    }
+
+#beingBeautCrea {
+    margin-bottom: -15px;
+    }
+
+#horizontalLine {
+    width: 50%;
+    border-color: purple;
+    }
+
+a {
+    text-decoration: none;
+    font-size: x-large;
+    color:#880808;
+    cursor: pointer;
+    text-align: center !important;
+    text-shadow: 0.5px 0.5px black;
+    }
+
+  button {
+      padding: 5px 21px;
+      border-radius: 23px;
+      background-color: #EE4B2B;
+
+      color: #fff;
+    }
+
+    #horizontalLineLonger {
+        width: 75%;
+        text-align: center;
+        border-color:purple;
+        margin-top: 27px;
+        margin-bottom: 27px;
+    }
+
+  .verdanaFont {
+      font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    }
+
+  .nonBlackColor {
+      color:darkslateblue;
+  
+    }
+
+#iAm {
+    margin-left: 20px;
+    margin-bottom: -15px;
+    }
+
+  #fact1 {
+      color: #EE4B2B;
+      text-shadow: 1px 1px black;
+
+    }
+
+  #fact2 {
+      color: darkslategray;
+      font-style: italic;
+    }
+
+#fact3 {
+    color: darkslateblue;
+      
+    }
+
+#fNameInput {
+    padding-right: 47px;
+    }
+
+label {
+    font-weight: bold;
+    }
+
+#delightLangPara {
+    margin-top: 24px;
+    margin-left: 3px;
+    margin-bottom: 3px;
+    }
+
+    #jsColor {
+        color: 	#f00
+    }
+
+    #mdColor {
+    color: #880808
+    }
+
+    #pyColor {
+        color: 	#EE4B2B;
+    }
+
+    #visitColor {
+        color:dimgray;
+        font-weight: bolder;
+    }
+
+    .centerSiteInput {
+        text-align: center;
+    }
+
+    footer {
+        text-align: center;
+        font-size: small;
+        /* background-color: red; */
+        padding: 23px 0;
+    }
+
+    /* #webPgOriColor {
+        color: #880808;
+    } */
+
+/* 
+    #dotDevSite {
+        font-size: small;
+        color: blue;
+        cursor: pointer;
+    } */
+
+    audio {
+        width: 44%;
+    }

@@ -33,7 +33,7 @@ I can do it, this. Be a worthy member of the code/tech eco system. I know. Becau
 I am here by the grace of God. Granting me humility, persistence, faith for what comes next. As such I give everything I do my all. I will achieve a place in this world where I am not hungry. Am not cold. Am not unsure. Clarity will line my path and align my values with what the world - not only offers, but - delivers to me.
 <br>
 <br>
-Seeming confusion and misalignments of my deeds will be outlined. Clear and accurate. Undeniably as the foundation of my ability and willingness to go forth. Go forth in confidence, and competence, and comfort. Sighting my claim. Claiming my sight. On my terms. Without disappointment. Nor slight against others. Perfect imperfection.
+Seeming confusion and misalignments of my deeds will be outlined. Clear and accurate. Undeniably as the foundation of my ability and willingness to go forth. Go forth in confidence, and competence, and comfort. Sighting my claim. Claiming my sight. On my terms. Without disappointment. Nor slight against others. Perfect imperfection. In code motion.
 <br>
 <br>
 It's Said. Outloud, enough. Finally.
