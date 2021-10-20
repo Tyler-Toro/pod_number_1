@@ -14,8 +14,16 @@
 
 <p align="center"><img src="images/tyler-familyvacationsunrise.jpg" width="75%" /title="Sunrise by Tyler Toro" ></p>
 
+- Anthony Caccamo
+- Brandon Grant
+- James Currie
+- Jason Doze
+- Jessy Martinez
+- La'Tonia Mertica
+  
 *<p align="center">In awe of possibilities viewing a sunset in Naples, Florida</p>*
 <br>
+
 
 <hr style="width: 25%; color: #afafaf">
 <br>
