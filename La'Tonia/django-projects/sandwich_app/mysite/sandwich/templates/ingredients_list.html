@@ -1,0 +1,7 @@
+<h1 style="color: lightseagreen; text-shadow: 0.5px 0.5px black; margin-left: 13px;">{{ ingredient_type|title }}</h1>
+
+<ul>
+    {% for ingredient in ingredients %}
+    <li>{{ ingredient }}</li>
+    {% endfor %}
+</ul>
