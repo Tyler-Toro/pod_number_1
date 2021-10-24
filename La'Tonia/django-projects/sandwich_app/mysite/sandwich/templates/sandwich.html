@@ -1,0 +1,18 @@
+<h1 style="color: lightseagreen; text-shadow: 0.5px 0.5px black; margin-left: 13px;">Sandwich Home</h1>
+
+<h3 style="margin-left: 24px;">Ingredients</h3>
+
+<ul style="margin-left: 24px;">
+    {% for ingredient in ingredients %}
+    <li>
+        <a href="{% url 'ingredients_list' ingredient %}">{{ ingredient }}</a>
+    </li>
+    {% endfor %}
+</ul>
+
+<!-- consolidated CTA into button -->
+<!-- <p>Click the button if you are hungry!</p> -->
+
+<form action="{% url 'sandwich_generator' %}">
+    <input type="submit" value="Make Sandwich Time!" style="margin-left: 24px; padding: 13px; background-color: lightyellow; border: 0.5px solid lightseagreen; border-radius: 20px; color: lightseagreen; text-shadow: 0.5px 0.5px black; cursor: pointer; letter-spacing: 1px;"/>
+</form>

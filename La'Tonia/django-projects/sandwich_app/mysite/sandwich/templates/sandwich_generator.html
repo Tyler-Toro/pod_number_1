@@ -1,0 +1,17 @@
+<h1 style="color: lightseagreen; text-shadow: 0.5px 0.5px black; margin-left: 13px;">{{ sandwich|title }}</h1>
+<p style="margin-left: 24px; font-size: small; font-style: italic;">refresh page or click below button for different option</p>
+
+<!-- efficiency of code and navigation consolidating this into the button -->
+<!-- <p>Click to go back to main page!</p> -->
+
+<form action="{% url 'sandwich' %}">
+    <input type="submit" value="Back to Home Page" style="margin-left: 24px; padding: 13px; background-color: lightseagreen; border: 0.5px solid lightseagreen; border-radius: 20px; color: #fff; text-shadow: 0.5px 0.5px black; cursor: pointer; letter-spacing: 1px;"/>
+</form>
+
+<!-- efficiency of code and navigation consolidating this into the button -->
+<!-- <p>Refresh!</p> -->
+
+<form action="{% url 'sandwich_generator' %}">
+    <input type="submit" value="Click for New Option" style="margin-left: 24px; padding: 13px; background-color: lightyellow; border: 0.5px solid lightseagreen; border-radius: 20px; color: lightseagreen; text-shadow: 0.5px 0.5px black; cursor: pointer; letter-spacing: 1px;"/>
+</form>
+
