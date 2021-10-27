@@ -1,0 +1,30 @@
+h1 {
+    color:blueviolet !important;
+    text-align: center;
+}
+
+.Food {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:chocolate;
+}
+
+.List {
+    color:cornflowerblue;
+}
+
+#Fact1 {
+    color:crimson;
+}
+
+#Fact2 {
+    color:darkblue;
+    font-style: italic;
+}
+
+#Fact3 {
+    color:darkorchid;
+}
+
+label {
+    font-weight: bold;
+}
