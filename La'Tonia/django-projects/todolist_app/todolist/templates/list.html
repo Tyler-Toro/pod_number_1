@@ -20,7 +20,7 @@
 
 <form action="{% url 'todolist' %}" method='POST'>
     {% csrf_token %} {{ form }}
-    <input type="submit" name="create" value="create" style="width: 100%; padding: 23px; background-color: #f9db6d; border-color: #f4eded; margin-top: 3px"/>
+    <input type="submit" name="create" value="create" style="width: 100%; padding: 23px; background-color: #f9db6d; border-color: #f4eded; margin-top: 3px; cursor: pointer;"/>
 </form>
 
 
@@ -59,13 +59,13 @@
 </ul>
 
 <form action="{% url 'notes' %}">
-    <input type="submit" value="notes page" style="width: 100%; padding: 23px; background-color: #161818; border-color: #f4eded; color: whitesmoke;" /> 
+    <input type="submit" value="notes page" style="width: 100%; padding: 23px; background-color: #161818; border-color: #f4eded; color: whitesmoke; cursor: pointer;" /> 
 </form>
 
 <h2 style="font-size:larger; margin-bottom: -1px;" >NEVER TODO</h2>
 <form>
     <input type="text" id="never_todo" name="never_todo" placeholder="unburdened from ..." style="width:100%; margin-bottom: 3px;"/>
-    <input type="submit" name="never_todo" value="submit" style="width: 100%; padding: 23px; background-color: darkred; border-color: #f4eded; color: whitesmoke;" />
+    <input type="submit" name="never_todo" value="submit" style="width: 100%; padding: 23px; background-color: darkred; border-color: #f4eded; color: whitesmoke; cursor: pointer;" />
 </form>
 
 </body>

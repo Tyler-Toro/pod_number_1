@@ -12,23 +12,23 @@
         {% csrf_token %} {{ form }}
         <br>
         <br>
-        <input type="submit" name="save" value="update/save" style="width: 100%; padding: 23px; background-color: lightyellow; border-color: #f4eded;"/>
+        <input type="submit" name="save" value="update/save" style="width: 100%; padding: 23px; background-color: lightyellow; border-color: #f4eded; cursor: pointer;"/>
         <br>
-        <input type="submit" name="in_progress" value="in progress" style="width: 100%; padding: 23px; background-color: #ffff00; border-color: #f4eded;"/>
+        <input type="submit" name="in_progress" value="in progress" style="width: 100%; padding: 23px; background-color: #ffff00; border-color: #f4eded; cursor: pointer;"/>
         <br>
-        <input type="submit" name="completed" value="complete" style="width: 100%; padding: 23px; background-color:#fee901; border-color: #f4eded;"/>
+        <input type="submit" name="completed" value="complete" style="width: 100%; padding: 23px; background-color:#fee901; border-color: #f4eded; cursor: pointer;"/>
         <br>
         <br>
-        <input type="submit" name="delete" value="delete" style="width: 100%; padding: 23px; background-color: darkred; border-color: #f4eded;"/>
+        <input type="submit" name="delete" value="DELETE" style="width: 100%; padding: 23px; background-color: darkred; border-color: #f4eded; cursor: pointer;"/>
     </form>
     
     <br>
     <form action="notes">
-        <input type="submit" value="add note" style="width: 100%; padding: 23px; background-color: #161818; border-color: #f4eded; color: whitesmoke" /> 
+        <input type="submit" value="add note" style="width: 100%; padding: 23px; background-color: #161818; border-color: #f4eded; color: whitesmoke; cursor: pointer;" /> 
     </form>
     <br>
     <form action="{% url 'todolist' %}">
-        <input type="submit" value="homepage" style="width: 100%; padding: 23px; background-color: #877666; border-color: #f4eded; color: whitesmoke" /> 
+        <input type="submit" value="homepage" style="width: 100%; padding: 23px; background-color: #877666; border-color: #f4eded; color: whitesmoke; cursor: pointer;" /> 
     </form>
     
 </body>
