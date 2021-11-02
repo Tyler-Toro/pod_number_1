@@ -8,7 +8,7 @@
     <title>To-Do List App Task Page</title>
 </head>
 <body style="margin: 22px 44px;">
-    <form action="{% url 'task' task_id %}" method="POST">
+    <form action="{% url 'task' task_id %}" method="POST" style="text-align: center">
         {% csrf_token %} {{ form }}
         <br>
         <br>

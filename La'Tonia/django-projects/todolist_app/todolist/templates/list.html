@@ -18,7 +18,7 @@
 
 <!-- <h2>MY TO-DOS</h2> -->
 
-<form action="{% url 'todolist' %}" method='POST'>
+<form action="{% url 'todolist' %}" method='POST' style="text-align: center">
     {% csrf_token %} {{ form }}
     <input type="submit" name="create" value="create" style="width: 100%; padding: 23px; background-color: #f9db6d; border-color: #f4eded; margin-top: 3px; cursor: pointer;"/>
 </form>
@@ -62,8 +62,11 @@
     <input type="submit" value="notes page" style="width: 100%; padding: 23px; background-color: #161818; border-color: #f4eded; color: whitesmoke; cursor: pointer;" /> 
 </form>
 
-<h2 style="font-size:larger; margin-bottom: -1px;" >NEVER TODO</h2>
-<form>
+<br/>
+<hr/>
+
+<h2 style="font-size:larger; margin-bottom: 0; text-align: center;" >NEVER TODO</h2>
+<form style="text-align: center">
     <input type="text" id="never_todo" name="never_todo" placeholder="unburdened from ..." style="width:90%; margin-bottom: 3px;"/>
     <input type="submit" name="never_todo" value="submit" style="width: 100%; padding: 23px; background-color: darkred; border-color: #f4eded; color: whitesmoke; cursor: pointer;" />
 </form>
