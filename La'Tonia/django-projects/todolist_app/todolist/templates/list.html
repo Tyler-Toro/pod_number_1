@@ -18,7 +18,7 @@
 
 <!-- <h2>MY TO-DOS</h2> -->
 
-<form action="{% url 'todolist' %}" method='POST' style="text-align: center">
+<form action="{% url 'todolist' %}" method='POST' style="text-align: center;">
     {% csrf_token %} {{ form }}
     <input type="submit" name="create" value="create" style="width: 100%; padding: 23px; background-color: #f9db6d; border-color: #f4eded; margin-top: 3px; cursor: pointer;"/>
 </form>
@@ -28,7 +28,7 @@
     {% for task in tasks %}
     {% if not task.completed %}
     <li>
-        <a href="{% url 'task' task.task_id %}">{{ task.task }}</a>
+        <a href="{% url 'task' task.task_id %}" style="text-decoration: none;">{{ task.task }}</a>
     </li>
     {% endif %}
     {% endfor %}
@@ -40,7 +40,7 @@
     {% for task in tasks %}
     {% if task.in_progress %}
     <li>
-        <a href="{% url 'task' task.task_id %}">{{ task.task }}</a>
+        <a href="{% url 'task' task.task_id %}" style="text-decoration: none;">{{ task.task }}</a>
     </li>
     {% endif %}
     {% endfor %}
@@ -52,7 +52,7 @@
     {% for task in tasks %}
     {% if task.completed %}
     <li>
-        <a href="{% url 'task' task.task_id %}">{{ task.task }}</a>
+        <a href="{% url 'task' task.task_id %}" style="text-decoration: none;">{{ task.task }}</a>
     </li>
     {% endif %}
     {% endfor %}
@@ -63,11 +63,11 @@
 </form>
 
 <br/>
-<hr/>
+<hr style="border: 1px solid red;"/>
 
 <h2 style="font-size:larger; margin-bottom: 0; text-align: center;" >NEVER TODO SYMBOLIC RELEASE</h2>
 <form style="text-align: center">
-    <input type="text" id="never_todo" name="never_todo" placeholder="unburdened from ..." style="width:90%; margin-bottom: 3px;"/>
+    <input type="text" id="never_todo" name="never_todo" placeholder="   unburdened from ..." style="width:90%; margin-bottom: 3px;"/>
     <input type="submit" name="never_todo" value="submit" style="width: 100%; padding: 23px; background-color: darkred; border-color: #f4eded; color: whitesmoke; cursor: pointer;" />
 </form>
 

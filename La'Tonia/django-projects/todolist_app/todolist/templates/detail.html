@@ -8,18 +8,18 @@
     <title>To-Do List App Task Page</title>
 </head>
 <body style="margin: 22px 44px;">
-    <form action="{% url 'task' task_id %}" method="POST" style="text-align: center">
+    <form action="{% url 'task' task_id %}" method="POST" style="text-align: center;">
         {% csrf_token %} {{ form }}
         <br>
         <br>
-        <input type="submit" name="save" value="update/save" style="width: 100%; padding: 23px; background-color: lightyellow; border-color: #f4eded; cursor: pointer;"/>
+        <input type="submit" name="save" value="edit/save" style="width: 25%; padding: 23px; background-color: lightyellow; border-color: #f4eded; cursor: pointer;"/>
+        
+        <input type="submit" name="in_progress" value="in progress" style="width: 25%; padding: 23px; background-color: #ffff00; border-color: #f4eded; cursor: pointer;"/>
+        
+        <input type="submit" name="completed" value="complete" style="width: 25%; padding: 23px; background-color:#fee901; border-color: #f4eded; cursor: pointer;"/>
         <br>
-        <input type="submit" name="in_progress" value="in progress" style="width: 100%; padding: 23px; background-color: #ffff00; border-color: #f4eded; cursor: pointer;"/>
         <br>
-        <input type="submit" name="completed" value="complete" style="width: 100%; padding: 23px; background-color:#fee901; border-color: #f4eded; cursor: pointer;"/>
-        <br>
-        <br>
-        <input type="submit" name="delete" value="DELETE" style="width: 100%; padding: 23px; background-color: darkred; border-color: #f4eded; cursor: pointer;"/>
+        <input type="submit" name="delete" value="DELETE" style="width: 100%; padding: 13px; background-color: darkred; border-color: #f4eded; cursor: pointer; font-weight: bold;"/>
     </form>
     
     <br>
