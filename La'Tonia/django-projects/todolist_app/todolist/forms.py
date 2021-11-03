@@ -5,5 +5,5 @@ class TodoForm(forms.Form):
     label = '', max_length = 255)
 
 class NoteForm(forms.Form):
-    notes = forms.CharField(widget=forms.TextInput(attrs={'style': 'width: 99.25%'}), max_length= 444, label = '')
+    notes = forms.CharField(widget=forms.TextInput(attrs={'style': 'width: 99.25%', 'placeholder': '   enter note'}), max_length= 444, label = '')
 
