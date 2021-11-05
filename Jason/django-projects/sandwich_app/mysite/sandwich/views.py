@@ -38,10 +38,10 @@ def sandwich_generator(request):
 
 def menu(request):
     if request.method == 'GET':
-        list = []
+        menu = []
         for meat in ingredients['meats']:
             for cheese in ingredients['cheeses']:
                 for topping in ingredients['toppings']:
-                    list.append(f'{meat} & {cheese} with {topping}')
+                    menu.append(f'{meat} & {cheese} with {topping}')
 
-        return render(request, template_name='menu.html', context={ 'menu': menu })
+    return render(request, template_name='menu.html', context={'menu': menu })
