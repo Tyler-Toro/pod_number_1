@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fiery Diarists Blog</title>
+</head>
+<body style="margin-left: 13px; margin-right: 13px;">
+    <h1 style="font-family: fantasy; margin-bottom: -30px;">FIERY DIARISTS</h1>
+    <p style="font-size: small; font-style: italic; margin-bottom: 22px;">the beauty of everyday texture inked in perspective</p>
+
+<a href="{% url 'create' %}" style="text-decoration: none; font-size: small;">CREATE POST</a>
+
+{% for post in posts %}
+<div style="padding: 32px 0px">
+    <img style="display: block" src="{{ post.img_link }}" width="100%" />
+    <a href="{% url 'edit' post.post_id %}" style="text-decoration: none; margin-top: 11px; font-size: small; margin-left: 11px;">edit post</a>
+    <h2 style="margin-bottom: -15px;">{{ post.title }}</h2>
+    <p>{{ post.body }}</p>
+    <div>
+        {% for tag in post.tags.all %}
+        <span
+            style="color: white; background-color: orangered; border-radius: 23px; margin-right: 3px; padding: 5px"
+            >{{ tag.name }}</span
+        >
+        {% endfor %}
+    </div>
+</div>
+{% endfor %}
+</body>
+</html>
+
+

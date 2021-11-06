@@ -1,0 +1,13 @@
+<style>
+    input[type='text'],
+    input[type='url'],
+    textarea {
+        display: block;
+    }
+</style>
+<h1 style="font-family: fantasy;">EDIT POST</h1>
+<form action="{% url 'edit' id %}" method="POST">
+    {% csrf_token %} {{ form }}
+    <input type="submit" name="save" value="SAVE" style="margin-top: 11px; font-size: small; margin-left: 11px; background-color: cornflowerblue; border-color: whitesmoke; padding: 7px; font-weight: bold;"/>
+    <input type="submit" name="delete" value="DELETE" style="margin-top: 11px; font-size: small; margin-left: 11px; background-color: cornflowerblue; border-color: whitesmoke; padding: 7px; font-weight: bold;"/>
+</form>

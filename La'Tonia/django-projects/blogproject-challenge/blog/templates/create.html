@@ -1,0 +1,8 @@
+<h1 style="font-family: fantasy; margin-bottom: -30px;">FIERY WORDS</h1>
+<p style="font-size: small; font-style: italic; margin-bottom: 22px;">through perspective into gooey thought</p>
+
+<form action="{% url 'create' %}" method="POST">
+{% csrf_token %} {{ form }}
+<input type="submit" name="create" value="CREATE" style="margin-top: 11px; font-size: small; margin-left: 11px; background-color: cornflowerblue; border-color: whitesmoke; padding: 7px; font-weight: bold;"/>
+</form>
+
