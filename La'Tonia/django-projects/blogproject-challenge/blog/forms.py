@@ -9,3 +9,4 @@ class EditorForm(forms.Form):
     for tag in Tag.objects.all():
         choices.append((tag.tag_id, tag.name))
     tags = forms.MultipleChoiceField(widget=forms.CheckboxSelectMultiple, choices=choices, required=True)
+
