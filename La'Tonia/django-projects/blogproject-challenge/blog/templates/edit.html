@@ -1,0 +1,40 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Post Page</title>
+</head>
+<body style="margin-left: 37px;">
+    <style>
+        input[type='text'],
+        input[type='url'],
+        textarea {
+            display: block;
+            width: 75%;
+            margin-bottom: 17px;  
+        }
+        label {
+            text-transform: lowercase;
+            letter-spacing: .5px;
+
+            font-weight: bold;
+            font-variant: small-caps;  
+        }
+        label.tag {
+            margin-bottom: -22px;
+        }
+
+    </style>
+    <h1 style="font-family: fantasy; margin-bottom: -30px;">EDIT POST</h1>
+    <p style="font-size: small; font-style: italic; margin-bottom: 22px;">effort towards getting it beautifully imperfect</p>
+    <form action="{% url 'edit' id %}" method="POST">
+        {% csrf_token %} {{ form }}
+        <input type="submit" name="save" value="SAVE" style="margin-top: 11px; font-size: small; color: darkcyan; margin-left: 11px; padding: 7px; box-shadow: .5px .5px .5px .5px darkcyan; background-color: cyan; border: 2px solid blue; border-radius: 10px;"/>
+        <input type="submit" name="delete" value="DELETE" style="margin-top: 11px; font-size: small; color: darkcyan; margin-left: 11px; padding: 7px; box-shadow: .5px .5px .5px .5px darkcyan; background-color: cyan; border: 2px solid blue; border-radius: 10px;"/>
+    </form>
+</body>
+</html>
