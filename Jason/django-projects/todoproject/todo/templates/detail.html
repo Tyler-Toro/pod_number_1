@@ -1,0 +1,17 @@
+<form action="{% url 'task' task_id %}" method="POST">
+    {% csrf_token %} {{ form }}
+    <input type="submit" name="save" value="Save" />
+    <input type="submit" name="delete" value="Delete" />
+    <input type="submit" name="completed" value="Mark_Completed" />
+</form>
+
+<p>Go to notes?</p>
+<form action="{% url 'notes' %}">
+    <input type="submit"  value="Notes" />
+
+<form action="{% url 'todo' %}">
+    <input type="submit"  value="Home" />
+    
+</form>
+
+

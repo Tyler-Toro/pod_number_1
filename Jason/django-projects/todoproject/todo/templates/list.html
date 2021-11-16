@@ -1,0 +1,28 @@
+<h1>Tasks</h1>
+
+<form action="{% url 'todo' %}" method="POST">
+    {% csrf_token %} {{ form }}
+    <input type="submit" name="create" value="Create" />
+</form>
+<h2>To Do</h2>
+<ul>
+    {% for task in tasks %}
+    {% if not task.completed %}
+    <li><a href="{% url 'task' task.task_id %}">{{ task.task }}</a></li>
+    {% endif %}
+    {% endfor %}
+    
+</ul>
+
+<h2>Completed</h2>
+<ul>
+    {% for task in tasks %}
+    {% if task.completed %}
+    <li><a href="{% url 'task' task.task_id %}">{{ task.task }}</a></li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
+<form action="{% url 'notes' %}">
+    <input type="submit"  value="notes" />
+</form>
