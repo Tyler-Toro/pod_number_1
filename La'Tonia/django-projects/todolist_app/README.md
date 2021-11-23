@@ -1,7 +1,7 @@
 <p align="center"><img src="/Users/latoniamerticasheppardwalker/Documents/JTC_2/pod_number_1/La'Tonia/django-projects/todolist_app/images/random-profile-pic-motion-color.jpg" width="100%" title="Selfie by La'Tonia Mertica" /></p>
 
 ## **TO DO LIST APP**
-*enter data in input fields and click submit options to manipulate content*
+*enter data in input fields on any of the three pages, and click options to manipulate content*
 
 <br>
 
