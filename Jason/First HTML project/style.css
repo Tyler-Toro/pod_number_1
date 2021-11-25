@@ -1,0 +1,32 @@
+
+.ver_text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.p_color {
+    color: #0400ff;
+}
+
+#item1 {
+    color: aqua;
+    font-style: italic;
+}
+
+#item2 {
+    color:#29034faa;
+    
+}
+
+#item1 {
+    color: #0400ff;
+    
+}
+
+label {
+    font-weight: bold;
+}
+
+.centerphoto {
+    align-content: center;
+}

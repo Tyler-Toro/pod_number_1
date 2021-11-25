@@ -1,0 +1,7 @@
+<h1>Create Page</h1>
+
+<form action="{% url 'create' %}" method= "POST">
+    {% csrf_token %} {{ form }}
+    <input type="submit" name="save" value="Create" />
+    
+</form>

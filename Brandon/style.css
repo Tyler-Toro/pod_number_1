@@ -1,0 +1,41 @@
+h1 {
+    color:goldenrod;
+    text-align: center;
+}
+.goals, .info {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+
+#fact1 {
+    color:orangered;
+}
+
+#fact2{
+    color: olivedrab;
+    font-style: italic;
+}
+
+#fact3{
+    color: tomato;
+}
+
+label{
+    font-weight: bold;
+}
+
+.selma1{
+    
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    
+}
+
+.selma2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    
+}
