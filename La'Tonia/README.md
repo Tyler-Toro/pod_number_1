@@ -8,6 +8,7 @@
 ---
 ###### <a href="https://drive.google.com/file/d/1NJNd3XmIWNVadYwVB_OCQQDDXzNVvn1X/view?usp=sharing" target="_blank"> visit pdf technical question guide by La'Tonia Mertica</a>
 ###### <a href="https://www.latoniamertica.dev/creas-crave-capstone/" target="_blank">visit full stack javascript capstone by La'Tonia Mertica</a>
+###### [interpersonal skills balance graphic by La'Tonia Mertica](images/balance.png)
 <br>
 
 ## <div align="center">***confession by code master hopeful***</div>
